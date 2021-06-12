@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Title</title>
+	<meta charset="UTF-8" />
+
+    <style>
+
+*,  body {
+    color: white;
+    margin: 0;
+    background-color: rgb(255, 241, 243);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+h1, .par1, .footer {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 680px;
+    padding: 20px;
+    margin-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+h1{
+    justify-content: center;
+}
+
+/* .full-bleed {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1591123195933-b2df071f444b");
+    margin-bottom: 2px;
+} */
+
+.pic {
+    width: 100%;
+    height: 50vw;
+    object-fit: cover;
+}
+
+.footer {
+    margin-bottom: 0;
+}
+
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <h1>Lorem Ipsum</h1>
+
+        <p class="par1">Lorem ipsum dolor sit amet, consectetur adipiscing 
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+            s nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+            qui officia deserunt mollit anim id est laborum.</p>
+
+        <div>
+            <img class="pic" src="https://images.unsplash.com/photo-1591123195933-b2df071f444b" alt="Deer">
+        </div>
+
+        <p class="footer">Lorem ipsum dolor sit amet, consectetur adipiscing 
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+            s nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+            qui officia deserunt mollit anim id est laborum.</p>
+
+    </div>
+
+
+	<script src="src/index.js">
+	</script>
+</body>
+
+</html>
